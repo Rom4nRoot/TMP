@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StatWindow</class>
+ <widget class="QWidget" name="StatWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Statistics</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="titleLabel">
+     <property name="text">
+      <string>Statistics</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="task1Label">
+     <property name="text">
+      <string>Task 1: 0 correct, 0 incorrect</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="task2Label">
+     <property name="text">
+      <string>Task 2: 0 correct, 0 incorrect</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="task3Label">
+     <property name="text">
+      <string>Task 3: 0 correct, 0 incorrect</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="task4Label">
+     <property name="text">
+      <string>Task 4: 0 correct, 0 incorrect</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="exitButton">
+     <property name="text">
+      <string>Exit</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

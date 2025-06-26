@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tasks</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="titleLabel">
+     <property name="text">
+      <string>Tasks</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="task1Button">
+     <property name="text">
+      <string>Task 1 - SHA1 Hashing</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="task2Button">
+     <property name="text">
+      <string>Task 2 - Newton's Method</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="task3Button">
+     <property name="text">
+      <string>Task 3 - Audio Steganography</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="task4Button">
+     <property name="text">
+      <string>Task 4 - Vigenere Cipher</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="statButton">
+     <property name="text">
+      <string>Statistics</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
